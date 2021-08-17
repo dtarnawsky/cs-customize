@@ -251,6 +251,12 @@ ion-button:hover {
   box-shadow: 0 15px 10px #777;
 }
 
+ion-button:active {
+  --background: lightgreen;
+  // This demonstrates box shadow on active/click
+  box-shadow: 0 25px 10px #000;
+}
+
 ion-button {
   &[disabled] {
     // This shows how the button background can be changed for disabled mode
