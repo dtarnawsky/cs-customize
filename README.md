@@ -44,3 +44,6 @@ ion-button {
     }
 }
 ```
+
+## Example Project Screenshot
+![Buttons](./src/assets/buttons.png)
