@@ -242,7 +242,7 @@ ion-button {
   --padding-start: 30px;
   --padding-end: 30px;
   --padding-top: 30px;
-  --padding-bottom: 30px;  
+  --padding-bottom: 30px;
 }
 
 ion-button:hover {
@@ -281,5 +281,23 @@ ion-button {
       // This show the button text color can be changed for disabled mode
       color: linear-gradient(rgb(161, 161, 161), rgb(255, 255, 255));
     }
+  }
+}
+
+// Fancy Outline - customizing the background for normal and hover
+ion-button {
+  &.fancy-outline {    
+    font-weight: lighter;
+    font-size: 20px;
+    --background: lightblue;
+  }
+}
+
+ion-button:hover {
+  &.fancy-outline {
+    font-weight: lighter;
+    font-size: 20px;
+    color: white;
+    --background: rgb(37, 138, 172);
   }
 }
